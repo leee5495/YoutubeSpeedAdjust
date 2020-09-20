@@ -1,6 +1,5 @@
 # YoutubeSpeedAdjust
-Chrome extension to adjust Youtube video playback speed to the type of video playing <br>
-Resets video playback speed to 1.0x when viewing a music video
+Chrome extension to automatically reset Youtube playback speed to 1.0x when viewing music videos
 
 ## What it does
 - this extension will automatically reset the playback speed to 1.0x when viewing a music video
@@ -13,6 +12,7 @@ Resets video playback speed to 1.0x when viewing a music video
 2. from [chrome://extensions/]() enable Developer Mode on the top right
 3. click `Load unpacked` and open the downloaded folder
 4. enable extension
+5. enjoy!
 
 
 ## To be updated
