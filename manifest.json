@@ -2,5 +2,38 @@
  "name": "Youtube Speed Adjust",
  "version": "1.0",
  "description": "Adjust Youtube video playback speed to the type of video playing",
- "manifest_version": 2
+ "manifest_version": 2,
+ 
+ "background": {
+    "scripts": ["background.js"],
+	"persistent": false
+  },
+  
+ "content_scripts": [
+	{
+	"matches": [
+		"https://*.youtube.com/watch*",
+		"http://*.youtube.com/watch*"
+	],
+	"js": ["content.js"],
+	"run_at": "document_end"
+	}
+ ],
+ 
+ "permissions": [
+    "https://*.youtube.com/watch*",
+	"http://*.youtube.com/watch*",
+	"tabs", 
+	"webNavigation"
+ ],
+ 
+ "page_action": {
+	"default_popup": "popup.html",
+	"default_icon": {
+		"32": "images/img32.png"
+	}
+  },
+  "icons": {
+	"32": "images/img32.png"
+  }
 }
