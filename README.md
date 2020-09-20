@@ -6,6 +6,7 @@ Chrome extension to automatically reset Youtube playback speed to 1.0x when view
 - this extension will consider a video to be music when
   - the channel is an official artist channel (has "𝅘𝅥𝅮" next to the channel name) 
   - the channel name ends with " - Topic"
+  - the genre of the Video is "Music"
 
 ## How to use
 1. download repository
