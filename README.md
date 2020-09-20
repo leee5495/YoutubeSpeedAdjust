@@ -8,8 +8,6 @@ Resets video playback speed to 1.0 when viewing a music video
 3. click Load unpacked and open the downloaded folder
 4. Enable extension
 
-\* you must hit refresh for the speed adjustment to be made
-
 ## To be updated
 - ~~enable automatic speed adjustment (must refresh page for the adjustment to be made)~~ <br>
 → updated
