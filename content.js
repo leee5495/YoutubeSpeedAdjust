@@ -6,10 +6,12 @@ function handleCanvas(video, ChannelName) {
 	if (isVerifiedArtist) {
 		// set playback speed to 1.0
 		video.playbackRate = 1.0;
+		console.log("reset speed");
 	}
 	else if (ChannelName.endsWith("- Topic")) {
 		// set playback speed to 1.0
 		video.playbackRate = 1.0;
+		console.log("reset speed");
 	}
 }
 
