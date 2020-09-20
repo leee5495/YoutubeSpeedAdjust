@@ -1,3 +1,5 @@
+console.log('new video playing'); 
+
 window.onload = function temp() {
 	console.log('document loaded'); 
 	var video = document.getElementsByTagName("video")[0];
