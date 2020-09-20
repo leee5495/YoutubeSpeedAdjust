@@ -6,34 +6,34 @@
  
  "background": {
     "scripts": ["background.js"],
-	"persistent": false
+    "persistent": false
   },
   
  "content_scripts": [
-	{
-	"matches": [
-		"https://*.youtube.com/watch*",
-		"http://*.youtube.com/watch*"
-	],
-	"js": ["content.js"],
-	"run_at": "document_end"
-	}
+    {
+     "matches": [
+        "https://*.youtube.com/watch*",
+        "http://*.youtube.com/watch*"
+     ],
+     "js": ["content.js"],
+     "run_at": "document_end"
+    }
  ],
  
  "permissions": [
     "https://*.youtube.com/watch*",
-	"http://*.youtube.com/watch*",
-	"tabs", 
-	"webNavigation"
+    "http://*.youtube.com/watch*",
+    "tabs", 
+    "webNavigation"
  ],
  
  "page_action": {
-	"default_popup": "popup.html",
-	"default_icon": {
-		"32": "images/img32.png"
-	}
+    "default_popup": "popup.html",
+    "default_icon": {
+        "32": "images/img32.png"
+    }
   },
   "icons": {
-	"32": "images/img32.png"
+    "32": "images/img32.png"
   }
 }
