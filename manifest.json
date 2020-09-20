@@ -1,0 +1,6 @@
+{
+ "name": "Youtube Speed Adjust",
+ "version": "1.0",
+ "description": "Adjust Youtube video playback speed to the type of video playing",
+ "manifest_version": 2
+}
