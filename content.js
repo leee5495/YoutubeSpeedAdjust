@@ -1,10 +1,10 @@
-console.log('new video playing'); 
+console.log('new video playing');
 
 window.onload = function temp() {
 	console.log('document loaded'); 
 	var video = document.getElementsByTagName("video")[0];
 	console.log(video);
-
+	
 	var isVerifiedArtist = null;
 	var ChannelName = null;
 
@@ -16,7 +16,8 @@ window.onload = function temp() {
 	}
 	ChannelName = ChannelName.textContent;
 	console.log(ChannelName);
-
+	
+	// if playing music
 	if (isVerifiedArtist) {
 		// set playback speed to 1.0
 		video.playbackRate = 1.0;

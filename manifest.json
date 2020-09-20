@@ -15,7 +15,7 @@
         "https://*.youtube.com/watch*",
         "http://*.youtube.com/watch*"
      ],
-     "js": ["content.js"],
+     "js": ["content_new.js"],
      "run_at": "document_end"
     }
  ],
