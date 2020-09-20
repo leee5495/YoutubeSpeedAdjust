@@ -11,5 +11,6 @@ Resets video playback speed to 1.0 when viewing a music video
 \* you must hit refresh for the speed adjustment to be made
 
 ## To be updated
-- enable automatic speed adjustment (must refresh page for the adjustment to be made)
+- ~~enable automatic speed adjustment (must refresh page for the adjustment to be made)~~ <br>
+→ updated
 - reset to default speed when watching a non-music video
